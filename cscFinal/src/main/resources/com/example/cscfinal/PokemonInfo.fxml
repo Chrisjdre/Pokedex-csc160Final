@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="502.0" prefWidth="391.0" style="-fx-background-color: skyblue;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.cscfinal.PokemonInfoController">
+   <children>
+      <Label fx:id="lblPokemonName" alignment="CENTER" layoutX="110.0" prefHeight="42.0" prefWidth="170.0">
+         <font>
+            <Font name="Bell MT Bold" size="24.0" />
+         </font>
+      </Label>
+      <Text layoutX="36.0" layoutY="64.0" strokeType="OUTSIDE" strokeWidth="0.0" text="HitPoints">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="36.0" layoutY="88.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Attack">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="36.0" layoutY="112.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Defense">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="36.0" layoutY="136.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sp.Attack">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="36.0" layoutY="160.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sp.Defense">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="36.0" layoutY="184.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Speed">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text fx:id="txtHitpoints" layoutX="136.0" layoutY="62.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text fx:id="txtAttack" layoutX="136.0" layoutY="86.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text fx:id="txtDefense" layoutX="136.0" layoutY="110.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text fx:id="txtSpAttack" layoutX="136.0" layoutY="134.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text fx:id="txtSpDefense" layoutX="136.0" layoutY="158.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text fx:id="txtSpeed" layoutX="136.0" layoutY="182.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <ProgressBar fx:id="pgrsHitPoints" layoutX="195.0" layoutY="45.0" prefHeight="18.0" prefWidth="170.0" progress="0.0" style="-fx-background-color: red;" />
+      <ProgressBar fx:id="pgrsAttack" layoutX="195.0" layoutY="69.0" prefHeight="18.0" prefWidth="170.0" progress="0.0" />
+      <ProgressBar fx:id="pgrsDefense" layoutX="195.0" layoutY="93.0" prefHeight="18.0" prefWidth="170.0" progress="0.0" />
+      <ProgressBar fx:id="pgrsSpAttack" layoutX="195.0" layoutY="117.0" prefHeight="18.0" prefWidth="170.0" progress="0.0" />
+      <ProgressBar fx:id="pgrsSpDefense" layoutX="195.0" layoutY="141.0" prefHeight="18.0" prefWidth="170.0" progress="0.0" />
+      <ProgressBar fx:id="pgrsSpeed" layoutX="195.0" layoutY="165.0" prefHeight="18.0" prefWidth="170.0" progress="0.0" />
+      <ListView fx:id="lstType" layoutX="33.0" layoutY="251.0" prefHeight="179.0" prefWidth="134.0" style="-fx-control-inner-background: skyblue; -fx-background-color: skyblue;" />
+      <ListView fx:id="lstWeakness" layoutX="221.0" layoutY="251.0" prefHeight="179.0" prefWidth="134.0" style="-fx-background-color: skyblue; -fx-control-inner-background: skyblue;" />
+      <Label alignment="CENTER" layoutX="63.0" layoutY="217.0" prefHeight="24.0" prefWidth="74.0" text="Type">
+         <font>
+            <Font name="Bell MT Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="251.0" layoutY="217.0" prefHeight="24.0" prefWidth="74.0" text="Weakness">
+         <font>
+            <Font name="Bell MT Bold" size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
